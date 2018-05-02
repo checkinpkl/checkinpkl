@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,6 +11,8 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/button"
         android:text="Locator"
         tools:layout_editor_absoluteX="94dp"
         tools:layout_editor_absoluteY="447dp" />
@@ -19,6 +21,8 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
         android:text="Beranda"
         tools:layout_editor_absoluteX="6dp"
         tools:layout_editor_absoluteY="447dp" />
@@ -27,6 +31,9 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="17dp"
+        android:layout_toEndOf="@+id/button2"
         android:text="Bantuan"
         tools:layout_editor_absoluteX="182dp"
         tools:layout_editor_absoluteY="447dp" />
@@ -35,6 +42,8 @@
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
         android:text="Akun Saya"
         tools:layout_editor_absoluteX="272dp"
         tools:layout_editor_absoluteY="447dp" />
@@ -43,6 +52,9 @@
         android:id="@+id/imageButton4"
         android:layout_width="145dp"
         android:layout_height="134dp"
+        android:layout_alignBottom="@+id/imageButton5"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginStart="12dp"
         app:srcCompat="@drawable/kantor"
         tools:layout_editor_absoluteX="37dp"
         tools:layout_editor_absoluteY="108dp" />
@@ -51,28 +63,36 @@
         android:id="@+id/imageButton5"
         android:layout_width="139dp"
         android:layout_height="136dp"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="96dp"
         app:srcCompat="@drawable/mhs"
         tools:layout_editor_absoluteX="210dp"
         tools:layout_editor_absoluteY="106dp" />
 
     <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Instansi"
-        android:textColor="@android:color/background_light"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="259dp" />
-
-    <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageButton5"
+        android:layout_below="@+id/imageButton5"
+        android:layout_marginTop="20dp"
+        android:paddingTop="0dp"
         android:text="Mahasiswa"
         android:textColor="@android:color/background_light"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="210dp"
         tools:layout_editor_absoluteY="259dp" />
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignEnd="@+id/imageButton4"
+        android:layout_marginEnd="39dp"
+        android:text="Instansi"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+</RelativeLayout>

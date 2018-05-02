@@ -8,28 +8,37 @@
     tools:context="com.example.acer.myapplication.Profil">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SIGN UP"
+        android:text="Akun Saya"
         android:textColor="@android:color/background_light"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="64dp" />
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Nama"
-        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="114dp" />
+        tools:layout_editor_absoluteY="5dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubah"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="287dp"
+        tools:layout_editor_absoluteY="72dp" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/editText5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -37,28 +46,28 @@
         android:text="Email"
         android:textColor="@android:color/background_light"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="200dp" />
+        tools:layout_editor_absoluteY="220dp" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editText6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Retype Password"
+        android:text="Username"
         android:textColor="@android:color/background_light"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="375dp" />
+        tools:layout_editor_absoluteY="324dp" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/editText7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Password"
+        android:text="Ubah Password"
         android:textColor="@android:color/background_light"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="287dp" />
+        tools:layout_editor_absoluteY="130dp" />
 
 </android.support.constraint.ConstraintLayout>
