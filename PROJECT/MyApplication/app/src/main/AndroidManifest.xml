@@ -14,23 +14,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Beranda">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Profil" />
-        <activity android:name=".Bantuan" />
         <activity android:name=".Registers" />
-        <activity android:name=".Instansi" />
-        <activity android:name=".Beranda" />
         <activity android:name=".loading" />
-        <activity android:name=".login2" />
+
         <activity android:name=".mahasiswa" />
-        <activity android:name=".locator2" />
-        <activity android:name=".locator3"></activity>
+
     </application>
 
 </manifest>

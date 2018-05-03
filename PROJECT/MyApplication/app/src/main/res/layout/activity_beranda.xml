@@ -14,6 +14,7 @@
         android:layout_alignParentBottom="true"
         android:layout_toEndOf="@+id/button"
         android:text="Locator"
+        android:textSize="12sp"
         tools:layout_editor_absoluteX="94dp"
         tools:layout_editor_absoluteY="447dp" />
 
@@ -24,6 +25,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:text="Beranda"
+        android:textSize="12sp"
         tools:layout_editor_absoluteX="6dp"
         tools:layout_editor_absoluteY="447dp" />
 
@@ -32,9 +34,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="17dp"
+        android:layout_marginStart="2dp"
         android:layout_toEndOf="@+id/button2"
         android:text="Bantuan"
+        android:textSize="12sp"
         tools:layout_editor_absoluteX="182dp"
         tools:layout_editor_absoluteY="447dp" />
 
@@ -45,6 +48,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:text="Akun Saya"
+        android:textSize="12sp"
         tools:layout_editor_absoluteX="272dp"
         tools:layout_editor_absoluteY="447dp" />
 
@@ -68,7 +72,8 @@
         android:layout_marginTop="96dp"
         app:srcCompat="@drawable/mhs"
         tools:layout_editor_absoluteX="210dp"
-        tools:layout_editor_absoluteY="106dp" />
+        tools:layout_editor_absoluteY="106dp"
+        tools:ignore="UnknownId" />
 
     <TextView
         android:id="@+id/textView9"

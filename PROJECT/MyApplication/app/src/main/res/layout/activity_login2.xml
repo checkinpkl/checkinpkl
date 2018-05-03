@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,6 +11,9 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="207dp"
         android:text="Login"
         android:textColor="@android:color/background_light"
         android:textSize="24sp"
@@ -21,9 +24,12 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="68dp"
         android:text="New member? Sign Up"
         android:textColor="@android:color/background_light"
-        android:textSize="24sp"
+        android:textSize="14sp"
         tools:layout_editor_absoluteX="72dp"
         tools:layout_editor_absoluteY="408dp" />
 
@@ -31,9 +37,12 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="99dp"
         android:text="Sign In"
         android:textColor="@android:color/background_light"
-        android:textSize="24sp"
+        android:textSize="18sp"
         tools:layout_editor_absoluteX="155dp"
         tools:layout_editor_absoluteY="355dp" />
 
@@ -41,6 +50,9 @@
         android:id="@+id/editText6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="207dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Username"
@@ -52,6 +64,9 @@
         android:id="@+id/editText7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="147dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Password"
@@ -59,4 +74,4 @@
         tools:layout_editor_absoluteX="22dp"
         tools:layout_editor_absoluteY="290dp" />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

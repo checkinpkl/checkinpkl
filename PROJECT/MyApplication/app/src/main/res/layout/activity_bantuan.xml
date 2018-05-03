@@ -66,6 +66,7 @@
         android:layout_alignParentBottom="true"
         android:layout_toEndOf="@+id/button"
         android:text="Locator"
+        android:textSize="12sp"
         tools:layout_editor_absoluteX="94dp"
         tools:layout_editor_absoluteY="447dp" />
 
@@ -76,6 +77,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:text="Beranda"
+        android:textSize="12sp"
         tools:layout_editor_absoluteX="6dp"
         tools:layout_editor_absoluteY="447dp" />
 
@@ -86,6 +88,7 @@
         android:layout_alignParentBottom="true"
         android:layout_toStartOf="@+id/button4"
         android:text="Bantuan"
+        android:textSize="12sp"
         tools:layout_editor_absoluteX="182dp"
         tools:layout_editor_absoluteY="447dp" />
 
@@ -96,6 +99,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:text="Akun Saya"
+        android:textSize="12sp"
         tools:layout_editor_absoluteX="272dp"
         tools:layout_editor_absoluteY="447dp" />
 
