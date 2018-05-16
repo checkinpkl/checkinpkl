@@ -21,7 +21,7 @@
         tools:layout_editor_absoluteY="174dp" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textsignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -70,10 +70,10 @@
         app:srcCompat="@drawable/logo" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/buttonSignin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView4"
+        android:layout_above="@+id/textsignup"
         android:layout_centerHorizontal="true"
         android:backgroundTint="@android:color/holo_blue_dark"
         android:text="Sign in"

@@ -7,7 +7,7 @@
     tools:context="com.example.acer.myapplication.Profil">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textsignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -24,8 +24,8 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/textView4"
-        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/textsignup"
+        android:layout_below="@+id/textsignup"
         android:layout_marginTop="76dp"
         android:text="Cara mudah melakukan Check In?"
         android:textColor="@android:color/background_light"
