@@ -44,8 +44,9 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="120dp"
-        android:backgroundTint="@android:color/holo_blue_bright"
-        android:text="Sign In" />
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Sign In"
+        android:textColor="@android:color/background_light" />
 
     <TextView
         android:id="@+id/signup"
