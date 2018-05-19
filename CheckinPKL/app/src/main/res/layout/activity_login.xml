@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="239dp"
+        android:layout_marginTop="210dp"
         android:backgroundTint="@android:color/background_light"
         android:drawableLeft="@drawable/ic_action_username"
         android:ems="10"
@@ -27,9 +27,9 @@
         android:id="@+id/password"
         android:layout_width="257dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="220dp"
+        android:layout_marginTop="257dp"
         android:backgroundTint="@android:color/background_light"
         android:drawableLeft="@drawable/ic_action_password"
         android:ems="10"
@@ -64,17 +64,15 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/username"
         android:layout_below="@+id/password"
-        android:layout_marginTop="-220dp"
         android:text="Forgot Password ?"
         android:textColor="@android:color/background_light" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="182dp"
-        android:layout_height="204dp"
+        android:layout_width="197dp"
+        android:layout_height="174dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="13dp"
         app:srcCompat="@drawable/loadinglogo" />
 
 </RelativeLayout>
